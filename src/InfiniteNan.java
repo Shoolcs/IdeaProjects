@@ -23,7 +23,7 @@ public class InfiniteNan {
         System.out.println("Notepad  завершился" + p.exitValue());
         long start , end ;
         start = System.currentTimeMillis();
-        for(int i = 0 ; i<1000000 ; i++){}
+        for(int i = 0 ; i<11000000 ; i++){}
             end = System.currentTimeMillis();
 
         System.out.println("RunTime"+ (end-start));
