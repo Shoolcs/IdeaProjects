@@ -25,7 +25,7 @@ public class InfiniteNan {
         start = System.currentTimeMillis();
         for(int i = 0 ; i<100000 ; i++){}
             end = System.currentTimeMillis();
-       
+
 
         System.out.println("RunTime"+ (end-start));
         System.out.println(System.getProperties());
